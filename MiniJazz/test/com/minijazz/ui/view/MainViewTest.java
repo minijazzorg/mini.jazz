@@ -2,6 +2,7 @@ package com.minijazz.ui.view;
 
 import static org.junit.Assert.*;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -18,7 +19,9 @@ public class MainViewTest {
 
 	@Test
 	public void testRun() {
-		fail("Not yet implemented");
+		MainView mainView = new MainView();
+		
+		Assert.assertTrue("Expected true", mainView.run());
 	}
 
 }

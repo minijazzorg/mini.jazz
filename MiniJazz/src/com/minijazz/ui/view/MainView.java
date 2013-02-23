@@ -12,6 +12,7 @@ public class MainView {
 	}
 	
 	public boolean run() {
+		LOGGER.error("Test");
 		return true;
 	}
 	
